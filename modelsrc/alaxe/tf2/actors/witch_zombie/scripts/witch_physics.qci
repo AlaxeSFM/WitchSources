@@ -1,0 +1,84 @@
+$popd
+
+$pushd "../parts"
+
+$collisionjoints "witch_physics.dmx"
+{
+	$mass 90
+	$inertia 10
+	$damping 0.01
+	$rotdamping 1.5
+	$rootbone "bip_pelvis"
+
+
+
+	$jointconstrain "bip_hip_l" x limit -53.00 91.00 0.00
+	$jointconstrain "bip_hip_l" y limit -53.00 61.00 0.00
+	$jointconstrain "bip_hip_l" z limit -110.00 75.00 0.00
+
+	$jointconstrain "bip_knee_l" x limit -115.00 8.00 0.00
+	$jointconstrain "bip_knee_l" y limit -1.00 -1.00 0.00
+	$jointconstrain "bip_knee_l" z limit 1.00 1.00 0.00
+
+	$jointconstrain "bip_foot_L" x limit -40 55 0
+	$jointconstrain "bip_foot_L" y limit -40 40 0
+	$jointconstrain "bip_foot_L" z limit -40 40 0
+
+	$jointconstrain "bip_spine_0" x limit -60 100 0
+	$jointconstrain "bip_spine_0" y limit -65 65 0
+	$jointconstrain "bip_spine_0" z limit -25 25 0
+
+	$jointconstrain "bip_spine_2" x limit -60 90 0
+	$jointconstrain "bip_spine_2" y limit -70 70 0
+	$jointconstrain "bip_spine_2" z limit -25 25 0
+
+	$jointconstrain "bip_collar_r" x limit -26.00 23.00 0.00
+	$jointconstrain "bip_collar_r" y limit 0.00 0.00 0.00
+	$jointconstrain "bip_collar_r" z limit -40.00 60.00 0.00
+
+	$jointconstrain "bip_upperarm_r" x limit -50.00 46.00 0.00
+	$jointconstrain "bip_upperarm_r" y limit -88.00 97.00 0.00
+	$jointconstrain "bip_upperarm_r" z limit -102.00 117.00 0.00
+
+	$jointconstrain "bip_lowerarm_r" x limit 1.00 1.00 0.00
+	$jointconstrain "bip_lowerarm_r" y limit 1.00 1.00 0.00
+	$jointconstrain "bip_lowerarm_r" z limit -10.00 135.00 0.00
+
+	$jointconstrain "bip_collar_l" x limit -26.00 23.00 0.00
+	$jointconstrain "bip_collar_l" y limit 0.00 0.00 0.00
+	$jointconstrain "bip_collar_l" z limit -40.00 60.00 0.00
+
+	$jointconstrain "bip_upperarm_l" x limit -50.00 46.00 0.00
+	$jointconstrain "bip_upperarm_l" y limit -88.00 97.00 0.00
+	$jointconstrain "bip_upperarm_l" z limit -102.00 117.00 0.00
+
+	$jointconstrain "bip_lowerarm_l" x limit 1.00 1.00 0.00
+	$jointconstrain "bip_lowerarm_l" y limit 1.00 1.00 0.00
+	$jointconstrain "bip_lowerarm_l" z limit -122.00 12.00 0.00
+
+	$jointconstrain "bip_hand_L" x limit -70 70 0
+	$jointconstrain "bip_hand_L" y limit -80 80 0
+	$jointconstrain "bip_hand_L" z limit -90 90 0
+
+	$jointconstrain "bip_hand_R" x limit -70 70 0
+	$jointconstrain "bip_hand_R" y limit -80 80 0
+	$jointconstrain "bip_hand_R" z limit -90 90 0
+
+	$jointconstrain "bip_head" x limit -60 50 0
+	$jointconstrain "bip_head" y limit -70 70 0
+	$jointconstrain "bip_head" z limit -25 25 0
+
+	$jointconstrain "bip_hip_r" x limit -53.00 91.00 0.00
+	$jointconstrain "bip_hip_r" y limit -53.00 61.00 0.00
+	$jointconstrain "bip_hip_r" z limit -110.00 75.00 0.00
+
+	$jointconstrain "bip_knee_r" x limit -115.00 8.00 0.00
+	$jointconstrain "bip_knee_r" y limit -1.00 -1.00 0.00
+	$jointconstrain "bip_knee_r" z limit 1.00 1.00 0.00
+
+	$jointconstrain "bip_foot_R" x limit -40 55 0
+	$jointconstrain "bip_foot_R" y limit -40 40 0
+	$jointconstrain "bip_foot_R" z limit -40 40 0
+
+
+}
